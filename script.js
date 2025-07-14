@@ -6,13 +6,11 @@ document.addEventListener("DOMContentLoaded", function(){
         e.preventDefault();
         resetarMsg();   
         if (!validarCampos()){
-            e.preventDefault();
         } else {
             result();
             calcularIMC();
             categoria();
             alerta();
-            e.preventDefault();
         }
 
         // Mais pra baixo eu fiz uma forma de imprimir um objeto chave valor com as informações. Mas, poderia ser feito assim:

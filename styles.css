@@ -49,7 +49,7 @@ input {
 .error-message {
     color: red;
     font-size: 15px;
-    display: block;
+    /* display: block; */
     margin-bottom: 4px;
     display: none;
 }
